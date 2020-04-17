@@ -1,0 +1,37 @@
+{
+  "name": "mk-cli",
+  "version": "1.0.0",
+  "description": "开发脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/panda-gk/cli.git"
+  },
+  "bin": {
+    "gbb": "bin/mk.js",
+    "gbb-add": "bin/mk-add.js",
+    "gbb-delete": "bin/mk-del.js",
+    "gbb-list": "bin/mk-list.js",
+    "gbb-init": "bin/mk-init.js"
+  },
+  "keywords": [
+    "vue-cli3",
+    "脚手架"
+  ],
+  "author": "gbb",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/panda-gk/cli/issues"
+  },
+  "homepage": "https://github.com/panda-gk/cli#readme"
+}
