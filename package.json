@@ -1,5 +1,5 @@
 {
-  "name": "mk-cli",
+  "name": "gbb-cli",
   "version": "1.0.0",
   "description": "开发脚手架",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/panda-gk/cli.git"
+    "url": "git+ssh://git@github.com/panda-gk/gbb-cli.git"
   },
   "bin": {
     "gbb": "bin/mk.js",
@@ -31,7 +31,7 @@
     "ora": "^3.2.0"
   },
   "bugs": {
-    "url": "https://github.com/panda-gk/cli/issues"
+    "url": "https://github.com/panda-gk/gbb-cli/issues"
   },
-  "homepage": "https://github.com/panda-gk/cli#readme"
+  "homepage": "https://github.com/panda-gk/gbb-cli#readme"
 }
