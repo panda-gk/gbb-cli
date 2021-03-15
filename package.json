@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/panda-gk/gbb-cli.git"
+    "url": "https://github.com/panda-gk/gbb-cli.git"
   },
   "bin": {
     "gbb": "bin/mk.js",
